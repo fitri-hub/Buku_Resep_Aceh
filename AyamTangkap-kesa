@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayam Tangkap - Masakan Aceh</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f1e8;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        .header {
+            background: #7b2d26;
+            color: white;
+            text-align: center;
+            padding: 40px 25px;
+        }
+
+        .header p {
+            margin-top: 8px;
+            font-size: 15px;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 35px 40px;
+        }
+
+        h3 {
+            color: #7b2d26;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #e7d8c8;
+            padding-bottom: 6px;
+        }
+
+        ul,
+        ol {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .description {
+            background: #f8f3eb;
+            padding: 18px;
+            border-left: 4px solid #c79a55;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        .footer {
+            text-align: center;
+            background: #f1eadf;
+            padding: 18px;
+            color: #777;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px auto;
+            }
+
+            .content {
+                padding: 25px;
+            }
+
+            .header {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <div class="header">
+                <h1>Resep Masakan Aceh</h1>
+                <p>Ayam Tangkap</p>
+            </div>
+
+            <div class="content">
+
+                <div class="description">
+                    <p>
+                        Ayam Tangkap merupakan salah satu masakan khas Aceh
+                        yang terkenal dengan cita rasa gurih serta aroma
+                        rempah dan daun-daunan yang khas.
+                    </p>
+                </div>
+
+                <h3>Bahan-bahan</h3>
+
+                <ul>
+                    <li>1 ekor ayam, potong menjadi beberapa bagian</li>
+                    <li>5 siung bawang putih</li>
+                    <li>5 siung bawang merah</li>
+                    <li>3 buah cabai rawit</li>
+                    <li>2 batang serai</li>
+                    <li>3 lembar daun salam</li>
+                    <li>3 lembar daun pandan</li>
+                    <li>Daun kari secukupnya</li>
+                    <li>Garam secukupnya</li>
+                    <li>Air secukupnya</li>
+                    <li>Minyak untuk menggoreng</li>
+                </ul>
+
+                <h3>Cara Membuat</h3>
+
+                <ol>
+                    <li>
+                        Haluskan bawang putih, bawang merah,
+                        cabai rawit, dan garam.
+                    </li>
+                    <li>
+                        Masukkan ayam ke dalam bumbu dan tambahkan
+                        air secukupnya.
+                    </li>
+                    <li>
+                        Masak ayam hingga matang dan bumbu meresap.
+                    </li>
+                    <li>
+                        Panaskan minyak, kemudian goreng ayam
+                        hingga berwarna kecokelatan.
+                    </li>
+                    <li>
+                        Goreng daun pandan, daun salam, serai,
+                        dan daun kari hingga harum.
+                    </li>
+                    <li>
+                        Campurkan ayam dengan daun-daunan yang
+                        sudah digoreng.
+                    </li>
+                    <li>
+                        Ayam Tangkap siap disajikan.
+                    </li>
+                </ol>
+
+                <h3>Penyajian</h3>
+
+                <p>
+                    Sajikan Ayam Tangkap selagi hangat bersama
+                    nasi putih.
+                </p>
+
+            </div>
+
+            <div class="footer">
+                Resep Masakan Khas Aceh
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
